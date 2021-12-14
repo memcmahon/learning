@@ -91,4 +91,38 @@
    //a: 2, b: 2
    
  ### Class
- 
+ ```cs
+  public class Person
+    {
+        public string FirstName;
+        public string LastName;
+
+        public void Introduce()
+        {
+            Console.WriteLine("My name is " + FirstName + " " + LastName);
+        }
+    }
+    
+var john = new Person();
+john.FirstName = "John";
+john.LastName = "Smith";
+john.Introduce();
+```
+
+```cs
+public class Calculator
+    {
+        public static int Add(int a, int b)
+        {
+            return a + b;
+        }
+    }
+    
+Calculator.Add(1, 3);
+```
+
+- When declaring a method on a class, you must indicate the return type, or 'void' if there is none.
+- Static methods are like ruby class methods - they are called on the class itself, not on an instance of that class.
+- typically one class per file 😰 after moving classes to different files, it became much more difficult to compile and execute from terminal, so I went back to running code through VS itself.
+
+
