@@ -125,4 +125,95 @@ Calculator.Add(1, 3);
 - Static methods are like ruby class methods - they are called on the class itself, not on an instance of that class.
 - typically one class per file 😰 after moving classes to different files, it became much more difficult to compile and execute from terminal, so I went back to running code through VS itself.
 
+### Structs
+- Similar to classes, structs combine data and functions.
+- In the real world, you will most often use classes, not structures.
+- Use structures when you want to define very small things, like RgbColor, or a Point (with x/y coord)
+- Structs are good when you need to create ALOT of something
 
+```cs
+public struct Point
+{
+  public int x;
+  public int y;
+}
+```
+
+### Arrays
+- Stores a collection of variables of the same type:
+  ```cs
+  int number1;
+  int number2;
+  int number3;
+  
+  //could be arrayed as:
+  
+  int[] numbers = new int[3];
+  ```
+- Arrays have a fixed size, it must be indicated at creation and cannot be changed.
+- Array is a class, because it is an object, we need to allocate memory for it.
+- example:
+  ```cs
+  var numbers = new int[3];
+  numbers[0] = 1;
+  numbers[1] = 2;
+  numbers[2] = 3;
+  
+  //OR
+  
+  var numbers = new int[3] {1, 2, 3};
+  ```
+  
+- If you do not assign values to each index, the values will be the default for that datatype (0 for int, false for bool, etc...)
+
+### Strings
+- A string is a sequence of characters (not just one)
+- string literal ```var name = "John";```
+- string concatenation ```var name = firstName + " " + lastName;```
+- string format ```var name = string.Format("{0} {1}", firstName, lastName);```
+- string join ```var numbers = new int[3] {1, 2, 3}; var list = string.Join(",", numbers);```
+- string characters can be accessed with an index.
+- in c#, strings are immutable; once created, they can not be changed.
+  - there are methods that can manipulate strings, but they return *new* strings, the original is not changed.
+- verbatim string (to avoid having to escape characters) ```string path = @"c:\projects\project1\folder1"```
+
+
+### Enums
+- used to translate codes to actions/status
+- often used instead of a group of related constants
+- defined at the namespace level
+  ```cs
+  namespace DemoProject
+{
+    public enum ShippingMethod
+    {
+        RegularAirMail = 1,
+        RegisteredAirMail = 2,
+        Express = 3
+    }
+    
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var method = ShippingMethod.RegularAirMail;
+            Console.WriteLine((int)method);
+
+            var methodId = 3;
+            Console.WriteLine((ShippingMethod)methodId);
+
+            Console.WriteLine(method.ToString());
+            // Console.WriteLine will automatically call .ToString() on any argument
+
+            var methodName = "RegisteredAirMail";
+            var shippingMethod = (ShippingMethod)Enum.Parse(typeof(ShippingMethod), methodName);
+            Console.WriteLine(shippingMethod);
+        }
+    }
+}
+```
+  
+  var method = ShippingMethod.Express;
+  ```
+  
+  
