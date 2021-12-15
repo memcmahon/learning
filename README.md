@@ -125,6 +125,16 @@ Calculator.Add(1, 3);
 - Static methods are like ruby class methods - they are called on the class itself, not on an instance of that class.
 - typically one class per file 😰 after moving classes to different files, it became much more difficult to compile and execute from terminal, so I went back to running code through VS itself.
 
+- To create an instance with attributes already defined:
+  ```cs
+  public class Person
+  {
+      public int Age;
+  }
+  
+  var person = new Person() {Age = 20};
+  ```
+
 ### Structs
 - Similar to classes, structs combine data and functions.
 - In the real world, you will most often use classes, not structures.
@@ -182,8 +192,8 @@ public struct Point
 - used to translate codes to actions/status
 - often used instead of a group of related constants
 - defined at the namespace level
-  ```cs
-  namespace DemoProject
+```cs
+namespace DemoProject
 {
     public enum ShippingMethod
     {
@@ -212,8 +222,5 @@ public struct Point
     }
 }
 ```
-  
-  var method = ShippingMethod.Express;
-  ```
   
   
