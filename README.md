@@ -223,4 +223,36 @@ namespace DemoProject
 }
 ```
   
-  
+
+## [Building a .Net API](https://docs.microsoft.com/en-us/learn/modules/build-web-api-aspnet-core/)
+### Setup
+- downloaded VSCode
+- downloaded .Net 6.0 ARM
+- Trying to download 
+  ```bash
+  $ dotnet tool install -g Microsoft.dotnet-httprepl
+    Tools directory '/Users/megan/.dotnet/tools' is not currently on the PATH environment variable.
+    If you are using zsh, you can add it to your profile by running the following command:
+
+    cat << \EOF >> ~/.zprofile
+    # Add .NET Core SDK tools
+    export PATH="$PATH:/Users/megan/.dotnet/tools"
+    EOF
+
+    And run `zsh -l` to make it available for current session.
+
+    You can only add it to the current session by running the following command:
+
+    export PATH="$PATH:/Users/megan/.dotnet/tools"
+
+    You can invoke the tool using the following command: httprepl
+    Tool 'microsoft.dotnet-httprepl' (version '6.0.0') was successfully installed.
+  $ cat << \EOF >> ~/.zshrc   
+    # Add .NET Core SDK tools
+    export PATH="$PATH:/Users/megan/.dotnet/tools"
+    EOF
+  $ zsh -l
+  $ dotnet tool install -g Microsoft.dotnet-httprepl
+    Tool 'microsoft.dotnet-httprepl' is already installed.
+  ```
+- In order to get httprepl running per the instructions in Unit 3.5, I needed to ```$ dotnet dev-certs https --trust```
