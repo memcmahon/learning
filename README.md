@@ -222,6 +222,94 @@ namespace DemoProject
     }
 }
 ```
+
+### Conditional Statements
+- If/Else
+  ```cs
+  if (condition)
+  {
+    //some action
+  }
+  else if (condition)
+  {
+    //some action
+  }
+  else
+  {
+    //some action
+  }
+  ```
+- curly braces are only _necessary_ when the block is more than one line long, but may be best convention to always use them?
+- condition operator ```condition ? resultIfTrue : resultIfFalse;```
+  
+  
+- Switch/Case
+  ```cs
+  var season = Season.Autumn;
+
+  switch (season)
+  {
+      case Season.Autumn:
+          Console.WriteLine("It's Autumn; what a beautiful season!");
+          break;
+      case Season.Summer:
+          Console.WriteLine("We've got a promotion");
+          break;
+      default:
+          Console.WriteLine("I don't understand this season!");
+          break;
+  }
+  ```
+  ```cs
+  var season = Season.Autumn;
+
+  switch (season)
+  {
+      case Season.Autumn:
+      case Season.Summer:
+          Console.WriteLine("We've got a promotion");
+          break;
+      default:
+          Console.WriteLine("I don't understand this season!");
+          break;
+  }
+  
+  // this will return 'promotion' for either autumn or summer.
+  ```
+  
+### Iterative Statements
+- Four iteration statements: for, foreach, while, dowhile
+- For Loops
+  ```cs
+  for (var i = 0; i < 10; i++) // initialization clause; condition clause; iteration clause
+  {
+    ...
+  }
+  ```
+- Foreach Loops (used for any numerical)
+  ```cs
+  foreach (var number in numbers)
+  {
+    ...
+  }
+  ```
+- While Loop
+  ```cs
+  while (i < 10)
+  {
+    ...
+  }
+  ```
+- Do-While Loops (the loop is executed at least once)
+  ```cs
+  do
+  {
+    ...
+    i++
+  } while (i < 10);
+  ```
+- `break;` jumps out of a loop
+- `continue;` goes to the next iteration
   
 
 ## [Building a .Net API](https://docs.microsoft.com/en-us/learn/modules/build-web-api-aspnet-core/)
