@@ -310,7 +310,37 @@ namespace DemoProject
   ```
 - `break;` jumps out of a loop
 - `continue;` goes to the next iteration
-  
+
+### Arrays
+- There are single, and multi-dimensional arrays.
+- Single:
+- Multidemensional:
+  - can be rectangular or jagged
+  - rectangular (2D): 
+    - `var matrix = new int[3, 5];`
+    - ```cs
+      var matrix = new int[3, 5]
+      {
+        { 1, 2, 3, 4, 5 },
+        { 6, 7, 8, 9, 10 },
+        { 11, 12, 13, 14, 15 }
+      };
+      ```
+    - above is the object initialization syntax
+    - accessing an element: `var element = matrix[0, 0]`;
+  - rectangular (3D): 
+    - `var colors = new int[3, 5, 4];`
+  - Jagged (array of arrays)
+  - First, create a top level array, then initialize each element into a new array (the two square brackets indicate that it will be a jagged array):
+    - ```cs
+      var array = new int[3][];
+      array[0] = new int[4];
+      array[1] = new int[5];
+      array[2] = new int[3];
+      ```
+  - Some useful methods:
+    - instance: .Length
+    - static: .IndexOf(), .Clear(), .Copy(), .Reverse(), .Sort()
 
 ## [Building a .Net API](https://docs.microsoft.com/en-us/learn/modules/build-web-api-aspnet-core/)
 ### Setup
