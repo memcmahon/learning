@@ -342,6 +342,17 @@ namespace DemoProject
     - instance: .Length
     - static: .IndexOf(), .Clear(), .Copy(), .Reverse(), .Sort()
 
+
+### Lists
+- Similar to Array, but it has dynamic size
+- `var numbers = new List<int>();`
+- `var numbers = new List<int>() { 1, 2, 3 };`
+- Some useful methods:
+  - Add(), AddRange(), Remove(), RemoveAt(), IndexOf(), Contains(), Count
+
+**Important** You can not modify an array or list inside a `foreach`, to do this, you must use a basic `for` loop 
+
+
 ## [Building a .Net API](https://docs.microsoft.com/en-us/learn/modules/build-web-api-aspnet-core/)
 ### Setup
 - downloaded VSCode
