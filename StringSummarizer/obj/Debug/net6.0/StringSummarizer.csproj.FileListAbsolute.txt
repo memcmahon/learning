@@ -1,0 +1,15 @@
+/Users/megan/learning_csharp_dotnet/StringSummarizer/bin/Debug/net6.0/StringSummarizer
+/Users/megan/learning_csharp_dotnet/StringSummarizer/bin/Debug/net6.0/StringSummarizer.deps.json
+/Users/megan/learning_csharp_dotnet/StringSummarizer/bin/Debug/net6.0/StringSummarizer.runtimeconfig.json
+/Users/megan/learning_csharp_dotnet/StringSummarizer/bin/Debug/net6.0/StringSummarizer.dll
+/Users/megan/learning_csharp_dotnet/StringSummarizer/bin/Debug/net6.0/ref/StringSummarizer.dll
+/Users/megan/learning_csharp_dotnet/StringSummarizer/bin/Debug/net6.0/StringSummarizer.pdb
+/Users/megan/learning_csharp_dotnet/StringSummarizer/obj/Debug/net6.0/StringSummarizer.csproj.AssemblyReference.cache
+/Users/megan/learning_csharp_dotnet/StringSummarizer/obj/Debug/net6.0/StringSummarizer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/megan/learning_csharp_dotnet/StringSummarizer/obj/Debug/net6.0/StringSummarizer.AssemblyInfoInputs.cache
+/Users/megan/learning_csharp_dotnet/StringSummarizer/obj/Debug/net6.0/StringSummarizer.AssemblyInfo.cs
+/Users/megan/learning_csharp_dotnet/StringSummarizer/obj/Debug/net6.0/StringSummarizer.csproj.CoreCompileInputs.cache
+/Users/megan/learning_csharp_dotnet/StringSummarizer/obj/Debug/net6.0/StringSummarizer.dll
+/Users/megan/learning_csharp_dotnet/StringSummarizer/obj/Debug/net6.0/ref/StringSummarizer.dll
+/Users/megan/learning_csharp_dotnet/StringSummarizer/obj/Debug/net6.0/StringSummarizer.pdb
+/Users/megan/learning_csharp_dotnet/StringSummarizer/obj/Debug/net6.0/StringSummarizer.genruntimeconfig.cache
