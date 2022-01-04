@@ -186,6 +186,7 @@ public struct Point
 - in c#, strings are immutable; once created, they can not be changed.
   - there are methods that can manipulate strings, but they return *new* strings, the original is not changed.
 - verbatim string (to avoid having to escape characters) ```string path = @"c:\projects\project1\folder1"```
+- STRINGS ARE IMMUTABLE
 
 
 ### Enums
