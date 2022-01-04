@@ -186,6 +186,7 @@ public struct Point
 - in c#, strings are immutable; once created, they can not be changed.
   - there are methods that can manipulate strings, but they return *new* strings, the original is not changed.
 - verbatim string (to avoid having to escape characters) ```string path = @"c:\projects\project1\folder1"```
+- STRINGS ARE IMMUTABLE
 
 
 ### Enums
@@ -222,7 +223,136 @@ namespace DemoProject
     }
 }
 ```
+
+### Conditional Statements
+- If/Else
+  ```cs
+  if (condition)
+  {
+    //some action
+  }
+  else if (condition)
+  {
+    //some action
+  }
+  else
+  {
+    //some action
+  }
+  ```
+- curly braces are only _necessary_ when the block is more than one line long, but may be best convention to always use them?
+- condition operator ```condition ? resultIfTrue : resultIfFalse;```
   
+  
+- Switch/Case
+  ```cs
+  var season = Season.Autumn;
+
+  switch (season)
+  {
+      case Season.Autumn:
+          Console.WriteLine("It's Autumn; what a beautiful season!");
+          break;
+      case Season.Summer:
+          Console.WriteLine("We've got a promotion");
+          break;
+      default:
+          Console.WriteLine("I don't understand this season!");
+          break;
+  }
+  ```
+  ```cs
+  var season = Season.Autumn;
+
+  switch (season)
+  {
+      case Season.Autumn:
+      case Season.Summer:
+          Console.WriteLine("We've got a promotion");
+          break;
+      default:
+          Console.WriteLine("I don't understand this season!");
+          break;
+  }
+  
+  // this will return 'promotion' for either autumn or summer.
+  ```
+  
+### Iterative Statements
+- Four iteration statements: for, foreach, while, dowhile
+- For Loops
+  ```cs
+  for (var i = 0; i < 10; i++) // initialization clause; condition clause; iteration clause
+  {
+    ...
+  }
+  ```
+- Foreach Loops (used for any numerical)
+  ```cs
+  foreach (var number in numbers)
+  {
+    ...
+  }
+  ```
+- While Loop
+  ```cs
+  while (i < 10)
+  {
+    ...
+  }
+  ```
+- Do-While Loops (the loop is executed at least once)
+  ```cs
+  do
+  {
+    ...
+    i++
+  } while (i < 10);
+  ```
+- `break;` jumps out of a loop
+- `continue;` goes to the next iteration
+
+### Arrays
+- There are single, and multi-dimensional arrays.
+- Single:
+- Multidemensional:
+  - can be rectangular or jagged
+  - rectangular (2D): 
+    - `var matrix = new int[3, 5];`
+    - ```cs
+      var matrix = new int[3, 5]
+      {
+        { 1, 2, 3, 4, 5 },
+        { 6, 7, 8, 9, 10 },
+        { 11, 12, 13, 14, 15 }
+      };
+      ```
+    - above is the object initialization syntax
+    - accessing an element: `var element = matrix[0, 0]`;
+  - rectangular (3D): 
+    - `var colors = new int[3, 5, 4];`
+  - Jagged (array of arrays)
+  - First, create a top level array, then initialize each element into a new array (the two square brackets indicate that it will be a jagged array):
+    - ```cs
+      var array = new int[3][];
+      array[0] = new int[4];
+      array[1] = new int[5];
+      array[2] = new int[3];
+      ```
+  - Some useful methods:
+    - instance: .Length
+    - static: .IndexOf(), .Clear(), .Copy(), .Reverse(), .Sort()
+
+
+### Lists
+- Similar to Array, but it has dynamic size
+- `var numbers = new List<int>();`
+- `var numbers = new List<int>() { 1, 2, 3 };`
+- Some useful methods:
+  - Add(), AddRange(), Remove(), RemoveAt(), IndexOf(), Contains(), Count
+
+**Important** You can not modify an array or list inside a `foreach`, to do this, you must use a basic `for` loop 
+
 
 ## [Building a .Net API](https://docs.microsoft.com/en-us/learn/modules/build-web-api-aspnet-core/)
 ### Setup
