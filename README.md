@@ -1,10 +1,18 @@
 # Learning C#/.NET
 
-## Getting Set Up
+## Getting Set Up (Visual Studio)
 1. Downloaded [Visual Studio for Mac](https://visualstudio.microsoft.com/downloads/)
     * Opted to also download toolkit for iOS development
     * Did not install XCode (yet)
     * Chose Visual Studio for Mac shortcuts
+
+## Getting Set Up (VS Code)
+After using Visual Studio, I switched to VSCode.  Since I already had dotnet installed from the steps above, I can now run the following to startup and run a console app:
+```bash
+$ mkdir project_directory && cd project_directory
+$ dotnet new console
+$ dotnet run
+```
 
 ## [Udemy: C# for Beginners](https://www.udemy.com/course/csharp-tutorial-for-beginners/)
 - C# is the language, .NET is the framework for building applications
