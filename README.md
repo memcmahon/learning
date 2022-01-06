@@ -30,7 +30,7 @@ $ dotnet run
 
 ### Variables & Constants
 - Constants are immutable
-- need to declare type before assignment: 
+- need to declare type before assignment:
   ```cs
   int number = 3;
   const int AnotherNumber = 3;
@@ -68,7 +68,7 @@ $ dotnet run
   ```cs
   byte b = 1;  // 00000001
   int i = b;   // 00000000 00000000 00000000 00000001
-  ``` 
+  ```
 - Explicit; When the conversion is from large to small, there is a chance for data loss, so the compiler will not auto convert
   ```cs
   int i = 1;
@@ -83,21 +83,21 @@ $ dotnet run
    int i = Convert.ToInt32(s);
    int j = int.Parse(s);
    ```
-   
+
  ### Operator weirdness
  - Incrementing by one with `++` or `--`.  Can be used as prefix or postfix:
    ```cs
    var a = 1;
    var b = a++;
-   
+
    //a: 2, b: 1
    ```
    ```cs
    var a = 1;
    var b = ++a;
-   
+
    //a: 2, b: 2
-   
+
  ### Class
  ```cs
   public class Person
@@ -110,7 +110,7 @@ $ dotnet run
             Console.WriteLine("My name is " + FirstName + " " + LastName);
         }
     }
-    
+
 var john = new Person();
 john.FirstName = "John";
 john.LastName = "Smith";
@@ -125,7 +125,7 @@ public class Calculator
             return a + b;
         }
     }
-    
+
 Calculator.Add(1, 3);
 ```
 
@@ -139,7 +139,7 @@ Calculator.Add(1, 3);
   {
       public int Age;
   }
-  
+
   var person = new Person() {Age = 20};
   ```
 
@@ -163,9 +163,9 @@ public struct Point
   int number1;
   int number2;
   int number3;
-  
+
   //could be arrayed as:
-  
+
   int[] numbers = new int[3];
   ```
 - Arrays have a fixed size, it must be indicated at creation and cannot be changed.
@@ -176,12 +176,12 @@ public struct Point
   numbers[0] = 1;
   numbers[1] = 2;
   numbers[2] = 3;
-  
+
   //OR
-  
+
   var numbers = new int[3] {1, 2, 3};
   ```
-  
+
 - If you do not assign values to each index, the values will be the default for that datatype (0 for int, false for bool, etc...)
 
 ### Strings
@@ -210,7 +210,7 @@ namespace DemoProject
         RegisteredAirMail = 2,
         Express = 3
     }
-    
+
     class Program
     {
         static void Main(string[] args)
@@ -250,8 +250,8 @@ namespace DemoProject
   ```
 - curly braces are only _necessary_ when the block is more than one line long, but may be best convention to always use them?
 - condition operator ```condition ? resultIfTrue : resultIfFalse;```
-  
-  
+
+
 - Switch/Case
   ```cs
   var season = Season.Autumn;
@@ -282,10 +282,10 @@ namespace DemoProject
           Console.WriteLine("I don't understand this season!");
           break;
   }
-  
+
   // this will return 'promotion' for either autumn or summer.
   ```
-  
+
 ### Iterative Statements
 - Four iteration statements: for, foreach, while, dowhile
 - For Loops
@@ -325,7 +325,7 @@ namespace DemoProject
 - Single:
 - Multidemensional:
   - can be rectangular or jagged
-  - rectangular (2D): 
+  - rectangular (2D):
     - `var matrix = new int[3, 5];`
     - ```cs
       var matrix = new int[3, 5]
@@ -337,7 +337,7 @@ namespace DemoProject
       ```
     - above is the object initialization syntax
     - accessing an element: `var element = matrix[0, 0]`;
-  - rectangular (3D): 
+  - rectangular (3D):
     - `var colors = new int[3, 5, 4];`
   - Jagged (array of arrays)
   - First, create a top level array, then initialize each element into a new array (the two square brackets indicate that it will be a jagged array):
@@ -359,14 +359,18 @@ namespace DemoProject
 - Some useful methods:
   - Add(), AddRange(), Remove(), RemoveAt(), IndexOf(), Contains(), Count
 
-**Important** You can not modify an array or list inside a `foreach`, to do this, you must use a basic `for` loop 
+**Important** You can not modify an array or list inside a `foreach`, to do this, you must use a basic `for` loop
+
+### StringBuilder
+- Allows you to create and work with _mutable_ strings.
+- Not optimized for searching (no IndexOf, etc...)
 
 
 ## [Building a .Net API](https://docs.microsoft.com/en-us/learn/modules/build-web-api-aspnet-core/)
 ### Setup
 - downloaded VSCode
 - downloaded .Net 6.0 ARM
-- Trying to download 
+- Trying to download
   ```bash
   $ dotnet tool install -g Microsoft.dotnet-httprepl
     Tools directory '/Users/megan/.dotnet/tools' is not currently on the PATH environment variable.
