@@ -1,0 +1,15 @@
+/Users/megan/learning_csharp_dotnet/Calculator/bin/Debug/net6.0/Calculator
+/Users/megan/learning_csharp_dotnet/Calculator/bin/Debug/net6.0/Calculator.deps.json
+/Users/megan/learning_csharp_dotnet/Calculator/bin/Debug/net6.0/Calculator.runtimeconfig.json
+/Users/megan/learning_csharp_dotnet/Calculator/bin/Debug/net6.0/Calculator.dll
+/Users/megan/learning_csharp_dotnet/Calculator/bin/Debug/net6.0/ref/Calculator.dll
+/Users/megan/learning_csharp_dotnet/Calculator/bin/Debug/net6.0/Calculator.pdb
+/Users/megan/learning_csharp_dotnet/Calculator/obj/Debug/net6.0/Calculator.csproj.AssemblyReference.cache
+/Users/megan/learning_csharp_dotnet/Calculator/obj/Debug/net6.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/megan/learning_csharp_dotnet/Calculator/obj/Debug/net6.0/Calculator.AssemblyInfoInputs.cache
+/Users/megan/learning_csharp_dotnet/Calculator/obj/Debug/net6.0/Calculator.AssemblyInfo.cs
+/Users/megan/learning_csharp_dotnet/Calculator/obj/Debug/net6.0/Calculator.csproj.CoreCompileInputs.cache
+/Users/megan/learning_csharp_dotnet/Calculator/obj/Debug/net6.0/Calculator.dll
+/Users/megan/learning_csharp_dotnet/Calculator/obj/Debug/net6.0/ref/Calculator.dll
+/Users/megan/learning_csharp_dotnet/Calculator/obj/Debug/net6.0/Calculator.pdb
+/Users/megan/learning_csharp_dotnet/Calculator/obj/Debug/net6.0/Calculator.genruntimeconfig.cache
