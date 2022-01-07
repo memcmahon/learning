@@ -15,3 +15,8 @@ Commits will be after each step.
 ```
 $ dotnet new sln
 ```
+
+2. Create a class library project
+```
+$ dotnet new classlib -o StringLibrary
+```
