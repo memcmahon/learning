@@ -62,3 +62,8 @@ $ dotnet new mstest -o StringLibraryTest
 ```
 $ dotnet sln add StringLibraryTest/StringLibraryTest.csproj
 ```
+
+13. Add a project reference
+```
+$ dotnet add StringLibraryTest/StringLibraryTest.csproj reference StringLibrary/StringLibrary.csproj
+```
