@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PtsUaK9DiewDN4iGvOZZF/FdstSEHGg8Tg15t39bOWJAo+K1xKW/qtjmDwVYIpdGpfKX0FmEsd42b0rqoO5X+w==",
+  "dgSpecHash": "yjD/+Nl8eKrTp7jz/NCs/NVKKzhYNurQLv4/I6U0DxjcEpOxL5SbZbvF3Mh24JlivODZ5QOosompnx9SYdztJw==",
   "success": true,
   "projectFilePath": "/Users/megan/learning_csharp_dotnet/UnitTesting/StringLibraryTest/StringLibraryTest.csproj",
   "expectedPackageFiles": [
