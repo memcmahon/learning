@@ -3,3 +3,16 @@
 /Users/megan/learning_csharp_dotnet/UnitTesting/ShowCase/obj/Debug/net6.0/ShowCase.AssemblyInfoInputs.cache
 /Users/megan/learning_csharp_dotnet/UnitTesting/ShowCase/obj/Debug/net6.0/ShowCase.AssemblyInfo.cs
 /Users/megan/learning_csharp_dotnet/UnitTesting/ShowCase/obj/Debug/net6.0/ShowCase.csproj.CoreCompileInputs.cache
+/Users/megan/learning_csharp_dotnet/UnitTesting/ShowCase/bin/Debug/net6.0/ShowCase
+/Users/megan/learning_csharp_dotnet/UnitTesting/ShowCase/bin/Debug/net6.0/ShowCase.deps.json
+/Users/megan/learning_csharp_dotnet/UnitTesting/ShowCase/bin/Debug/net6.0/ShowCase.runtimeconfig.json
+/Users/megan/learning_csharp_dotnet/UnitTesting/ShowCase/bin/Debug/net6.0/ShowCase.dll
+/Users/megan/learning_csharp_dotnet/UnitTesting/ShowCase/bin/Debug/net6.0/ref/ShowCase.dll
+/Users/megan/learning_csharp_dotnet/UnitTesting/ShowCase/bin/Debug/net6.0/ShowCase.pdb
+/Users/megan/learning_csharp_dotnet/UnitTesting/ShowCase/bin/Debug/net6.0/StringLibrary.dll
+/Users/megan/learning_csharp_dotnet/UnitTesting/ShowCase/bin/Debug/net6.0/StringLibrary.pdb
+/Users/megan/learning_csharp_dotnet/UnitTesting/ShowCase/obj/Debug/net6.0/ShowCase.csproj.CopyComplete
+/Users/megan/learning_csharp_dotnet/UnitTesting/ShowCase/obj/Debug/net6.0/ShowCase.dll
+/Users/megan/learning_csharp_dotnet/UnitTesting/ShowCase/obj/Debug/net6.0/ref/ShowCase.dll
+/Users/megan/learning_csharp_dotnet/UnitTesting/ShowCase/obj/Debug/net6.0/ShowCase.pdb
+/Users/megan/learning_csharp_dotnet/UnitTesting/ShowCase/obj/Debug/net6.0/ShowCase.genruntimeconfig.cache

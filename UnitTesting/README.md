@@ -47,3 +47,8 @@ $ dotnet sln add ShowCase/ShowCase.csproj
 ```
 $ dotnet add ShowCase/ShowCase.csproj reference StringLibrary/StringLibrary.csproj
 ```
+
+10. Run the project
+```
+$ dotnet run --project ShowCase/ShowCase.csproj
+```
