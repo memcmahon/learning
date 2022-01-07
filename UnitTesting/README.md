@@ -57,3 +57,8 @@ $ dotnet run --project ShowCase/ShowCase.csproj
 ```
 $ dotnet new mstest -o StringLibraryTest
 ```
+
+12. Add the test project to the solution
+```
+$ dotnet sln add StringLibraryTest/StringLibraryTest.csproj
+```
