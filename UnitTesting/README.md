@@ -20,3 +20,8 @@ $ dotnet new sln
 ```
 $ dotnet new classlib -o StringLibrary
 ```
+
+3. Add the project to the solution
+```
+$ dotnet sln add StringLibrary/StringLibrary.csproj
+```
