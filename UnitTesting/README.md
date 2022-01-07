@@ -33,4 +33,9 @@ $ dotnet sln add StringLibrary/StringLibrary.csproj
 $ dotnet build
 ```
 
+6. Add a console app to the solution
+```
+$ dotnet new console -o ShowCase
+$ dotnet sln add ShowCase/ShowCase.csproj
+```
 
