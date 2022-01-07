@@ -11,4 +11,7 @@ Also diving in to more [docs/videos](https://www.youtube.com/playlist?list=PLdo4
 
 Commits will be after each step.
 
-
+1. Create new solution (in the UnitTesting directory)
+```
+$ dotnet new sln
+```
