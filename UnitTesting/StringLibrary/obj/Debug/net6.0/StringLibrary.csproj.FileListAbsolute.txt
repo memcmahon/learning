@@ -1,0 +1,12 @@
+/Users/megan/learning_csharp_dotnet/UnitTesting/StringLibrary/bin/Debug/net6.0/StringLibrary.deps.json
+/Users/megan/learning_csharp_dotnet/UnitTesting/StringLibrary/bin/Debug/net6.0/StringLibrary.dll
+/Users/megan/learning_csharp_dotnet/UnitTesting/StringLibrary/bin/Debug/net6.0/ref/StringLibrary.dll
+/Users/megan/learning_csharp_dotnet/UnitTesting/StringLibrary/bin/Debug/net6.0/StringLibrary.pdb
+/Users/megan/learning_csharp_dotnet/UnitTesting/StringLibrary/obj/Debug/net6.0/StringLibrary.csproj.AssemblyReference.cache
+/Users/megan/learning_csharp_dotnet/UnitTesting/StringLibrary/obj/Debug/net6.0/StringLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/megan/learning_csharp_dotnet/UnitTesting/StringLibrary/obj/Debug/net6.0/StringLibrary.AssemblyInfoInputs.cache
+/Users/megan/learning_csharp_dotnet/UnitTesting/StringLibrary/obj/Debug/net6.0/StringLibrary.AssemblyInfo.cs
+/Users/megan/learning_csharp_dotnet/UnitTesting/StringLibrary/obj/Debug/net6.0/StringLibrary.csproj.CoreCompileInputs.cache
+/Users/megan/learning_csharp_dotnet/UnitTesting/StringLibrary/obj/Debug/net6.0/StringLibrary.dll
+/Users/megan/learning_csharp_dotnet/UnitTesting/StringLibrary/obj/Debug/net6.0/ref/StringLibrary.dll
+/Users/megan/learning_csharp_dotnet/UnitTesting/StringLibrary/obj/Debug/net6.0/StringLibrary.pdb

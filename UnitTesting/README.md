@@ -28,3 +28,9 @@ $ dotnet sln add StringLibrary/StringLibrary.csproj
 
 4. Create a class
 
+5. Build to verify project compiles without error
+```
+$ dotnet build
+```
+
+
