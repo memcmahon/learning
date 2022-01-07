@@ -25,3 +25,6 @@ $ dotnet new classlib -o StringLibrary
 ```
 $ dotnet sln add StringLibrary/StringLibrary.csproj
 ```
+
+4. Create a class
+
