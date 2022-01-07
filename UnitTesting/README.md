@@ -67,3 +67,5 @@ $ dotnet sln add StringLibraryTest/StringLibraryTest.csproj
 ```
 $ dotnet add StringLibraryTest/StringLibraryTest.csproj reference StringLibrary/StringLibrary.csproj
 ```
+
+14. Add tests
