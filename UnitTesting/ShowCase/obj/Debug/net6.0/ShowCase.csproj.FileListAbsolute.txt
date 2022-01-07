@@ -1,0 +1,5 @@
+/Users/megan/learning_csharp_dotnet/UnitTesting/ShowCase/obj/Debug/net6.0/ShowCase.csproj.AssemblyReference.cache
+/Users/megan/learning_csharp_dotnet/UnitTesting/ShowCase/obj/Debug/net6.0/ShowCase.GeneratedMSBuildEditorConfig.editorconfig
+/Users/megan/learning_csharp_dotnet/UnitTesting/ShowCase/obj/Debug/net6.0/ShowCase.AssemblyInfoInputs.cache
+/Users/megan/learning_csharp_dotnet/UnitTesting/ShowCase/obj/Debug/net6.0/ShowCase.AssemblyInfo.cs
+/Users/megan/learning_csharp_dotnet/UnitTesting/ShowCase/obj/Debug/net6.0/ShowCase.csproj.CoreCompileInputs.cache

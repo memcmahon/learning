@@ -39,3 +39,7 @@ $ dotnet new console -o ShowCase
 $ dotnet sln add ShowCase/ShowCase.csproj
 ```
 
+7. Add some code to the console app that uses the StringLibrary
+
+8. Build and see that a reference needs to be added
+
