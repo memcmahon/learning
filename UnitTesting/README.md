@@ -43,3 +43,7 @@ $ dotnet sln add ShowCase/ShowCase.csproj
 
 8. Build and see that a reference needs to be added
 
+9. Add reference in project to the StringLibrary
+```
+$ dotnet add ShowCase/ShowCase.csproj reference StringLibrary/StringLibrary.csproj
+```
