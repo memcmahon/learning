@@ -52,3 +52,8 @@ $ dotnet add ShowCase/ShowCase.csproj reference StringLibrary/StringLibrary.cspr
 ```
 $ dotnet run --project ShowCase/ShowCase.csproj
 ```
+
+11. Create a Unit Test Project
+```
+$ dotnet new mstest -o StringLibraryTest
+```
