@@ -1,0 +1,15 @@
+/Users/megan/learning_csharp_dotnet/SudokuSolverProject/SudokuSolver/bin/Debug/net6.0/SudokuSolver
+/Users/megan/learning_csharp_dotnet/SudokuSolverProject/SudokuSolver/bin/Debug/net6.0/SudokuSolver.deps.json
+/Users/megan/learning_csharp_dotnet/SudokuSolverProject/SudokuSolver/bin/Debug/net6.0/SudokuSolver.runtimeconfig.json
+/Users/megan/learning_csharp_dotnet/SudokuSolverProject/SudokuSolver/bin/Debug/net6.0/SudokuSolver.dll
+/Users/megan/learning_csharp_dotnet/SudokuSolverProject/SudokuSolver/bin/Debug/net6.0/ref/SudokuSolver.dll
+/Users/megan/learning_csharp_dotnet/SudokuSolverProject/SudokuSolver/bin/Debug/net6.0/SudokuSolver.pdb
+/Users/megan/learning_csharp_dotnet/SudokuSolverProject/SudokuSolver/obj/Debug/net6.0/SudokuSolver.csproj.AssemblyReference.cache
+/Users/megan/learning_csharp_dotnet/SudokuSolverProject/SudokuSolver/obj/Debug/net6.0/SudokuSolver.GeneratedMSBuildEditorConfig.editorconfig
+/Users/megan/learning_csharp_dotnet/SudokuSolverProject/SudokuSolver/obj/Debug/net6.0/SudokuSolver.AssemblyInfoInputs.cache
+/Users/megan/learning_csharp_dotnet/SudokuSolverProject/SudokuSolver/obj/Debug/net6.0/SudokuSolver.AssemblyInfo.cs
+/Users/megan/learning_csharp_dotnet/SudokuSolverProject/SudokuSolver/obj/Debug/net6.0/SudokuSolver.csproj.CoreCompileInputs.cache
+/Users/megan/learning_csharp_dotnet/SudokuSolverProject/SudokuSolver/obj/Debug/net6.0/SudokuSolver.dll
+/Users/megan/learning_csharp_dotnet/SudokuSolverProject/SudokuSolver/obj/Debug/net6.0/ref/SudokuSolver.dll
+/Users/megan/learning_csharp_dotnet/SudokuSolverProject/SudokuSolver/obj/Debug/net6.0/SudokuSolver.pdb
+/Users/megan/learning_csharp_dotnet/SudokuSolverProject/SudokuSolver/obj/Debug/net6.0/SudokuSolver.genruntimeconfig.cache
