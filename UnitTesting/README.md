@@ -69,3 +69,28 @@ $ dotnet add StringLibraryTest/StringLibraryTest.csproj reference StringLibrary/
 ```
 
 14. Add tests
+
+15. run with `dotnet test`
+
+**IMPORTANT**
+
+In order to test classes without making them public, you will need to add an assembly update to the project .csproj file:
+
+```c#
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+    <_Parameter1>WebScraperTests</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+
+</Project>
+```

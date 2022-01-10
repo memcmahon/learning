@@ -438,6 +438,102 @@ class Program
 
 `const` is implicitly _static_, `readonly` in implicitly _instance_.  `readonly` can also be declared without assignment.  `const`s can only hold standard c# types, no custom class types.
 
+### Classes
+```c#
+// Person.cs
+using System;
+
+namespace SomeName
+{
+    class Person
+    {
+        // Fields - should remain private to the class, and are private by default.
+        string _ssn;
+
+        // Properties - getter/setter methods that should be used to reveal some/all field information.
+        public string Birthday { get; set; }
+        public string FirstName { get; }
+        public string LastName { get; }
+        public string SSN {
+            get {
+                return _ssn;
+            }
+            set {
+                if (value.Length < 1)
+                {
+                    Console.WriteLine("Invalid Input");
+                }
+
+                _ssn = value;
+            }
+        }
+
+        // Constructor - allows you to set some field/property information on instanciation.
+        public Person(string firstName, string lastName)
+        {
+            this.FirstName = firstName;
+            this.LastName = lastName;
+        }
+
+        // Methods - behaviors
+        public void Eat()
+        {
+            Console.WriteLine("I'm Eating");
+        }
+
+        public void Sleep()
+        {
+            Console.WriteLine("I'm Sleeping");
+        }
+    }
+}
+
+// SuperPerson.cs
+using System;
+
+namespace SomeName
+{
+    // SuperPerson Inherits from Person
+    class SuperPerson : Person
+    {
+        // constructor uses the base setup of the inherited class, and could do additional constructing, if needed.
+        public SuperPerson(string FirstName, string LastName) :
+            base(FirstName, LastName)
+        {
+        }
+
+        public void Fly()
+        {
+            Console.WriteLine("I'm flying!");
+        }
+    }
+}
+
+// Program.cs
+using System;
+
+namespace WebScraper
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var person = new SuperPerson("Megan", "McMahon");
+            person.Birthday = "June 19";
+            person.SSN = "DATA";
+            Console.WriteLine(person.Birthday);
+            Console.WriteLine(person.FirstName);
+            Console.WriteLine(person.SSN);
+            Console.WriteLine(person.LastName);
+            person.Eat();
+            person.Sleep();
+            person.Fly();
+        }
+    }
+}
+```
+
+
 
 ## [Building a .Net API](https://docs.microsoft.com/en-us/learn/modules/build-web-api-aspnet-core/)
 ### Setup

@@ -6,7 +6,7 @@ namespace WebScraper
     {
         static void Main(string[] args)
         {
-            var person = new SuperPerson("Megan", "McMahon");
+            SuperPerson person = new SuperPerson("Megan", "McMahon");
             person.Birthday = "June 19";
             person.SSN = "DATA";
             Console.WriteLine(person.Birthday);
