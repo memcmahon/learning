@@ -1,0 +1,15 @@
+/Users/megan/learning_csharp_dotnet/WebScraperProject/WebScraper/obj/Debug/net6.0/WebScraper.csproj.AssemblyReference.cache
+/Users/megan/learning_csharp_dotnet/WebScraperProject/WebScraper/obj/Debug/net6.0/WebScraper.GeneratedMSBuildEditorConfig.editorconfig
+/Users/megan/learning_csharp_dotnet/WebScraperProject/WebScraper/obj/Debug/net6.0/WebScraper.AssemblyInfoInputs.cache
+/Users/megan/learning_csharp_dotnet/WebScraperProject/WebScraper/obj/Debug/net6.0/WebScraper.AssemblyInfo.cs
+/Users/megan/learning_csharp_dotnet/WebScraperProject/WebScraper/obj/Debug/net6.0/WebScraper.csproj.CoreCompileInputs.cache
+/Users/megan/learning_csharp_dotnet/WebScraperProject/WebScraper/bin/Debug/net6.0/WebScraper
+/Users/megan/learning_csharp_dotnet/WebScraperProject/WebScraper/bin/Debug/net6.0/WebScraper.deps.json
+/Users/megan/learning_csharp_dotnet/WebScraperProject/WebScraper/bin/Debug/net6.0/WebScraper.runtimeconfig.json
+/Users/megan/learning_csharp_dotnet/WebScraperProject/WebScraper/bin/Debug/net6.0/WebScraper.dll
+/Users/megan/learning_csharp_dotnet/WebScraperProject/WebScraper/bin/Debug/net6.0/ref/WebScraper.dll
+/Users/megan/learning_csharp_dotnet/WebScraperProject/WebScraper/bin/Debug/net6.0/WebScraper.pdb
+/Users/megan/learning_csharp_dotnet/WebScraperProject/WebScraper/obj/Debug/net6.0/WebScraper.dll
+/Users/megan/learning_csharp_dotnet/WebScraperProject/WebScraper/obj/Debug/net6.0/ref/WebScraper.dll
+/Users/megan/learning_csharp_dotnet/WebScraperProject/WebScraper/obj/Debug/net6.0/WebScraper.pdb
+/Users/megan/learning_csharp_dotnet/WebScraperProject/WebScraper/obj/Debug/net6.0/WebScraper.genruntimeconfig.cache
