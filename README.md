@@ -365,6 +365,79 @@ namespace DemoProject
 - Allows you to create and work with _mutable_ strings.
 - Not optimized for searching (no IndexOf, etc...)
 
+### Out vs Ref
+Consider the following:
+```c#
+class Program
+{
+    static void Main(string[] args)
+    {
+        int a = 10;
+        ChangeNumber(a);
+        Console.WriteLine(a);
+    }
+
+    static void ChangeNumber(int a)
+    {
+        a = 90;
+    }
+}
+```
+
+This snippet would output `10` to the terminal because integers are pass by value, or a Value Type.  But, we can force arguments to be treated as reference by using the `ref` or `out` keywords. `ref` requires that the variable be assigned prior to use; `out` requires that the argument be changed during method execution:
+
+```c#
+class Program
+{
+    static void Main(string[] args)
+    {
+        int a = 10;
+        ChangeNumber(ref a);
+        Console.WriteLine(a);
+    }
+
+    static void ChangeNumber(ref int a)
+    {
+        a = 90;
+    }
+}
+
+// OR
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        int a;
+        ChangeNumber(out a);
+        Console.WriteLine(a);
+    }
+
+    static void ChangeNumber(out int a)
+    {
+        a = 90;
+    }
+}
+```
+
+### Null Coalescing Operator
+```c#
+class Program
+{
+    static void Main(string[] args)
+    {
+        string person = null;
+        string newPerson = person ?? "Megan";
+
+        Console.WriteLine(newPerson);
+    }
+}
+```
+
+### const vs readonly
+
+`const` is implicitly _static_, `readonly` in implicitly _instance_.  `readonly` can also be declared without assignment.  `const`s can only hold standard c# types, no custom class types.
+
 
 ## [Building a .Net API](https://docs.microsoft.com/en-us/learn/modules/build-web-api-aspnet-core/)
 ### Setup

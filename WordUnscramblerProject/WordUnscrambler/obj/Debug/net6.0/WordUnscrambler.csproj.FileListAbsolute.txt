@@ -1,0 +1,15 @@
+/Users/megan/learning_csharp_dotnet/WordUnscramblerProject/WordUnscrambler/bin/Debug/net6.0/WordUnscrambler
+/Users/megan/learning_csharp_dotnet/WordUnscramblerProject/WordUnscrambler/bin/Debug/net6.0/WordUnscrambler.deps.json
+/Users/megan/learning_csharp_dotnet/WordUnscramblerProject/WordUnscrambler/bin/Debug/net6.0/WordUnscrambler.runtimeconfig.json
+/Users/megan/learning_csharp_dotnet/WordUnscramblerProject/WordUnscrambler/bin/Debug/net6.0/WordUnscrambler.dll
+/Users/megan/learning_csharp_dotnet/WordUnscramblerProject/WordUnscrambler/bin/Debug/net6.0/ref/WordUnscrambler.dll
+/Users/megan/learning_csharp_dotnet/WordUnscramblerProject/WordUnscrambler/bin/Debug/net6.0/WordUnscrambler.pdb
+/Users/megan/learning_csharp_dotnet/WordUnscramblerProject/WordUnscrambler/obj/Debug/net6.0/WordUnscrambler.csproj.AssemblyReference.cache
+/Users/megan/learning_csharp_dotnet/WordUnscramblerProject/WordUnscrambler/obj/Debug/net6.0/WordUnscrambler.GeneratedMSBuildEditorConfig.editorconfig
+/Users/megan/learning_csharp_dotnet/WordUnscramblerProject/WordUnscrambler/obj/Debug/net6.0/WordUnscrambler.AssemblyInfoInputs.cache
+/Users/megan/learning_csharp_dotnet/WordUnscramblerProject/WordUnscrambler/obj/Debug/net6.0/WordUnscrambler.AssemblyInfo.cs
+/Users/megan/learning_csharp_dotnet/WordUnscramblerProject/WordUnscrambler/obj/Debug/net6.0/WordUnscrambler.csproj.CoreCompileInputs.cache
+/Users/megan/learning_csharp_dotnet/WordUnscramblerProject/WordUnscrambler/obj/Debug/net6.0/WordUnscrambler.dll
+/Users/megan/learning_csharp_dotnet/WordUnscramblerProject/WordUnscrambler/obj/Debug/net6.0/ref/WordUnscrambler.dll
+/Users/megan/learning_csharp_dotnet/WordUnscramblerProject/WordUnscrambler/obj/Debug/net6.0/WordUnscrambler.pdb
+/Users/megan/learning_csharp_dotnet/WordUnscramblerProject/WordUnscrambler/obj/Debug/net6.0/WordUnscrambler.genruntimeconfig.cache
