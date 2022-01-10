@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net;
 
 namespace WebScraper
 {
@@ -6,16 +7,12 @@ namespace WebScraper
     {
         static void Main(string[] args)
         {
-            SuperPerson person = new SuperPerson("Megan", "McMahon");
-            person.Birthday = "June 19";
-            person.SSN = "DATA";
-            Console.WriteLine(person.Birthday);
-            Console.WriteLine(person.FirstName);
-            Console.WriteLine(person.SSN);
-            Console.WriteLine(person.LastName);
-            person.Eat();
-            person.Sleep();
-            person.Fly();
+            using (WebClient client = new WebClient())
+            {
+                string responseBody = client.DownloadString("http://www.google.com/");
+                Console.WriteLine(responseBody);
+
+            }
         }
     }
 }
