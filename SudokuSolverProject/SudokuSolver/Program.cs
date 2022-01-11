@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using SudokuSolver.Workers;
+using SudokuSolver.Strategies;
 
 namespace SudokuSolver
 {
@@ -7,8 +8,15 @@ namespace SudokuSolver
     {
         static void Main(string[] args)
         {
-            var reader = new SudokuFileReader();
-            reader.ReadFile("easy.txt");
+            SudokuFileReader reader = new SudokuFileReader();
+            BoardStateManager stateManager = new BoardStateManager();
+            SudokuMapper sudokuMapper = new SudokuMapper();
+            SudokuSolverEngine engine = new SudokuSolverEngine(stateManager, sudokuMapper);
+            BoardDisplayer displayer = new BoardDisplayer();
+
+            int[,] board = reader.ReadFile("easy.txt");
+
+            Console.WriteLine(engine.Solve(board));
         }
     }
 }
