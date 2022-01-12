@@ -14,7 +14,7 @@ namespace SudokuSolver
             SudokuSolverEngine engine = new SudokuSolverEngine(stateManager, sudokuMapper);
             BoardDisplayer displayer = new BoardDisplayer();
 
-            int[,] board = reader.ReadFile("easy.txt");
+            int[,] board = reader.ReadFile("Easy.txt");
 
             Console.WriteLine(engine.Solve(board));
         }

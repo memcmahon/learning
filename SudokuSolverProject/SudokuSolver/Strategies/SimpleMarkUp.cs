@@ -21,7 +21,8 @@ namespace SudokuSolver.Strategies
                     {
                         var possibilitiesInRowAndCol = GetPossibilitiesInRowAndCol(board, row, col);
                         var possibilitiesInBlock = GetPossibilitiesInBlock(board, row, col);
-                        board[row, col] = GetPossibilityIntersection (possibilitiesInRowAndCol, possibilitiesInBlock);
+                        var intersection = GetPossibilityIntersection(possibilitiesInRowAndCol, possibilitiesInBlock);
+                        board[row, col] = intersection;
                     }
                 }
             }
@@ -95,7 +96,7 @@ namespace SudokuSolver.Strategies
 
         private bool IsValidSingle(int cellDigit)
         {
-            return cellDigit == 0 && cellDigit.ToString().Length < 2;
+            return cellDigit != 0 && cellDigit.ToString().Length < 2;
         }
     }
 }

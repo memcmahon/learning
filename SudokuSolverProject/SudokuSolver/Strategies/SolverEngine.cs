@@ -22,15 +22,17 @@ namespace SudokuSolver.Strategies
 
             var currentState = _boardStateManager.GenerateState(board);
             var nextState = _boardStateManager.GenerateState(strategies.First().Solve(board));
+            var count = 1;
 
             while (!_boardStateManager.isSolved(board) && currentState != nextState)
             {
+                count += 1;
                 currentState = nextState;
                 foreach (var strategy in strategies)
                 {
                     nextState = _boardStateManager.GenerateState(strategy.Solve(board));
                 }
-
+                Console.WriteLine(count);
             }
             BoardDisplayer displayer = new BoardDisplayer();
             displayer.Display("solved", board);
